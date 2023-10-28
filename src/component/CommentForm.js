@@ -29,15 +29,15 @@ class CommentForm extends Component {
                 <h1 className="title" >Ajouter un commentaire</h1>
                 <form className="commentForm" onSubmit={this.handleSubmit}>
                     <div className="field">
-                        <label className="label">Name</label>
+                        <label className="label">Nom</label>
                         <div className="control">
-                            <input className="input" type="text" placeholder="Your Name" onChange={this.handleChangeName} value={this.state.name} />
+                            <input className="input" type="text" placeholder="Votre nom" onChange={this.handleChangeName} value={this.state.name} />
                         </div>
                 </div>  
                     <div className="field">
                         <label className="label">Message</label>
                         <div className="control">
-                            <textarea className="textarea" placeholder="Your Comment" onChange={this.handleChangeMessage} value={this.state.message}></textarea>
+                            <textarea className="textarea" placeholder="Votre commentaire" onChange={this.handleChangeMessage} value={this.state.message}></textarea>
                         </div>
                     </div>
                     <div className="field">
